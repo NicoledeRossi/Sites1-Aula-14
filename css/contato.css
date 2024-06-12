@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+a, ul, body, figure{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin:0;
+}
+
+h3{
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+p{   
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}   
+
+
+.title{    
+    font-size: 55px;
+}    
+    
+
+.banner{
+    position: relative;
+    height: 456px;
+    overflow: hidden;
+}
+
+.img-banner{
+    width: 100%;
+   
+    
+}
+
+.banner-content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    color: #fff;
+    background-color: rgba(247, 247, 247, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    
+    width:100%;
+}
+
+
+
+.form-content{
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.form-box{
+    height: 75px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 40px 30px 40px 0;
+   
+}
+.formulario{
+    display: flex;
+
+}
+.contact-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-title{
+    color: rgb(255, 142, 110);
+   
+}
+.envelope{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.adress{
+    height: 100%;
+    padding: 0;
+    
+}
+input, option{
+    border: none;
+    
+    color: rgb(167,167,167);
+}
+
+.imagem-contato{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    
+}
+.contato-foto{
+    width: 100%;
+}
+
+
+select{
+    border: none;
+    color: rgb(167,167,167);
+}
+
+
+label{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(167,167,167)
+    
+}
+
+
+span{
+    color: rgb(167,167,167);
+    margin-right: 20px;
+
+
+}textarea{
+    color: rgb(167,167,167);
+    font-size: 16px;
+    border:none;
+    border-bottom: 1px solid rgb(167,167,167);
+}
+
+.radio{
+    align-self: center;
+    justify-content: start;
+}
+.radio-box{
+    display: grid;
+    align-items: baseline;
+} 
+
+.check-box{
+    display: inline;
+}
+
+
+.checkbox{
+    align-self: start;
+}
+
+.textarea-box{
+    display: flex;
+    flex-direction: column;
+   
+    margin-bottom: 50px;
+}
+.form-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media(max-width: 375px){
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 340px;
+    }   
+    p{
+        line-height: 1.5;
+        font-size: 16px;
+        max-width: 80%;
+    }
+    .title{    
+        font-size: 45px;
+    }    
+        
+    .banner{
+        position: relative;
+        height: 456px;               
+    } 
+    .img-banner{
+        width: auto; 
+    }
+    .contact-title{
+        font-size: 14px;
+       
+    }
+    .envelope{
+        width: 48px;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+    .form-end{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+}

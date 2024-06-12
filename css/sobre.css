@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+
+
+a, ul, body, figure{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin:0;
+}
+
+h3{
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}   
+
+
+.title{    
+    font-size: 55px;
+}    
+    
+
+.banner{
+    position: relative;
+    height: 456px;
+    overflow: hidden;        
+}
+
+.img-banner{
+    width: 100%;
+    
+}
+
+.banner-content{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.team{
+    font-family: 'Montserrat', sans-serif;
+    height: 490px;
+    display: flex;
+    color:rgb(81, 80, 112);
+
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.person-item{
+    height: 257px;
+    width: 257px;
+
+}
+
+
+.person1{
+    position: relative;
+}
+
+.person1:hover{   
+    .identificacao{
+       z-index: 2;}
+}
+
+.identificacao{
+    height: 257px;
+    width: 257px;
+    position: absolute;
+    color: #fff;
+    top:0;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    z-index: -1;
+}
+
+
+.valores{
+    background-color: #f6f6f6;
+    height: 425px;
+    width: 100%;
+}
+
+.valores-content{
+    font-family: 'Montserrat', sans-serif;
+    height: 425px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.valores-item{
+    height: 182px;
+    width: 340px;
+
+}
+
+.missao-logo{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    padding: 20px;
+}
+
+@media(max-width: 375px){
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 340px;
+    }   
+    p{
+        line-height: 1.5;
+        font-size: 16px;
+        max-width: 80%;
+    }
+    .title{    
+        font-size: 45px;
+    }    
+        
+    .banner{
+        position: relative;
+        height: 456px;
+               
+    }
+    
+    .img-banner{
+        width: auto;
+    }
+
+    .banner-content{
+        height: 456px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .team{
+        height: 1300px;
+    }
+    .person{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .valores{
+        height: 680px;
+    }
+    .valores-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .valores-item{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    span{
+        font-size: 16px;
+    }
+
+
+}

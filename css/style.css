@@ -1,0 +1,428 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a, ul, body, figure{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin:0;
+}
+
+h3{
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+}
+
+p{
+    width: 500px;
+    line-height: 2;
+}
+
+
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;    
+    
+}
+
+
+
+.banner{
+    position: relative;    
+}
+
+
+.banner-img{
+    width: 100%;
+}
+
+.content-banner{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button{ display: flex;
+    height: 60px;
+    width: 165px;
+    color: #fff;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.banner-button{
+    background-color: rgb(255, 142, 110);
+   
+}
+
+.button-item{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+ 
+}
+
+.title{
+    font-size: 45px;
+}
+
+.about{
+    position: relative;
+    display: flex;
+    height: 688px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(137,137,137);
+}
+
+.about-title{
+    color:rgb(255, 142, 110);
+}
+
+.about-button{
+    background-color: rgb(81, 80, 112);
+}
+
+.about-image{
+    display: flex;
+    position: relative;
+    top:0;
+}
+
+.about-vetor{
+    position: relative;
+    top:0;
+    right: 0;
+}
+
+
+.about-group{
+    position: absolute;
+    top:20px;
+}
+
+.services{
+    position: relative;
+}
+
+
+.testimonial{
+    background-color: #f3f3f3;
+    position: relative;
+    display: flex;
+    height: 688px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testim-content{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(137,137,137);
+
+
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-item{
+    margin-top: 40px;
+    background-color: #fff;
+    height: 217px;
+    width: 580px;
+    padding: 20px;
+}
+
+.cabecalho-card{
+    display: flex;
+    align-items: center;
+
+}
+
+.foto-perfil{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.identificacao{
+    display: block;
+}
+
+.lista{
+    list-style: none;
+}
+
+.nome{
+    font-weight: bold;
+
+}
+.data{
+    color: rgb(255, 142, 110);
+}
+
+
+
+.features{
+    height: 688px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(81, 80, 112, 1),rgba(107, 105, 176, 1));  
+}
+
+
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-title{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 142, 110);
+    font-size: 45px;
+    align-items: center;
+    margin: 40px;
+    
+}
+
+
+.features-container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+.featL{
+    display: block;
+    
+}
+
+.featR{
+    display: block;
+    
+}
+
+.img-feature{
+    height: 551;
+    width: 349;
+}
+
+
+.features-item{
+    width: 337px;
+    height: 138px;
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    margin: 40px 0;
+    
+    
+}
+
+.img-feat-item{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.text-feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 100%;    
+
+}
+
+
+
+.contact{
+    background-color: #f3f3f3;
+    height: 688px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-content{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.contact-title{
+    color: rgb(255, 142, 110);
+}
+
+
+
+
+
+@media (max-width: 375px){
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 340px;
+    }
+    p{ line-height: 1.5;
+        font-size: 14px;
+        max-width: 320px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .title{    
+        font-size: 25px;
+    }    
+        
+    .banner{
+        position: relative;
+        height: 760px;
+               
+    }
+    .banner-img{
+        width: auto; 
+    }
+
+    .about{
+        height: 760px;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    
+    .about-content{
+        width: auto;
+    }
+
+    .about-group,.about-vetor{
+        width: 320px;
+    }
+   
+    .content-banner{
+        height:  760px;
+        align-self: center;
+        justify-self: center;
+    }
+    .testimonial{
+        height: 960px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+   
+    .card-item{
+        height: auto;
+        width: auto;
+        padding: 20px;
+        justify-content: center;
+        align-self: center;
+    }
+    .p-testimonial{
+        width: auto;
+    }
+    .cabecalho-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features{
+        height: 960px;
+        position: relative;
+    }
+    .feature-content{
+        height: 960px;
+        display: block;
+        margin: 0;
+    }
+
+    .features-container{
+        display: block;
+    }
+    .feature-title{
+        font-size: 25px;
+        
+    }
+    .features-item{
+        height: 80px;
+        padding:0;
+        margin: 0;
+    }
+    
+    .img-feat-item{
+        height: 30px;
+        width: 30px;
+    }
+    .nome{
+        font-size: 16px;}
+
+    span{
+        font-size: 12px;}
+
+    .text-feature{
+        height: 70px;
+        width: auto;
+    }
+
+    .feature-img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .contact{
+        height: 760px;
+    }
+    .contact-content{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+}
+

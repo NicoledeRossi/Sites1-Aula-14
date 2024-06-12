@@ -2,17 +2,240 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+
 </head>
+    
 <body>
-    <div>
-        <h1>Inicio do Site</h1>
-        <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur inventore in enim voluptate nihil asperiores, sunt voluptatum? Repudiandae sit officiis molestias voluptates labore unde quisquam illo illum omnis, adipisci impedit?
-        </p>
+    <header class="header" >
+        <section class="container header-container">
+            <img class="logo" src="./img/Logo Info Cimol.png" alt="">
+           
+            <label for="menu-control" class="hamburger">
+                <img class="hamburger" src="./img/menu_1828551.png" alt="" >
+            </label>         
+            
+            
+            <input type="checkbox" id="menu-control" class="menu-control">          
+            
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="index.html" target="_blank" class="menu-item-link">Home</a> </li>
+                <li class="menu-item">
+                    <a href="servicos.html" target="_blank"  class="menu-item-link">Serviços</a></li>
+                <li class="menu-item">
+                    <a href="contato.html" target="_blank"  class="menu-item-link">Contato</a> </li>
+                <li class="menu-item">
+                    <a href="sobre.html" target="_blank"  class="menu-item-link">Sobre Nós</a> </li>    
+            </ul>                   
+           
+        </section>
+    </header>
+
+
+
+    <section class="banner">
+        <img class="banner-img"src="./img/IMAGEM PARA EXPORTAR.jpg" alt="">
+
+        <div class="content-banner ">
+            <div class="container"> 
+                <h1 class="title">Somos Lorem Ipsum</h1>
+                <p>Olá, somos a Lorem Ipsum <br> Nosso trabalho é desenvolver texto de marcação.</p>
+                <button class="button banner-button">
+                    <div >
+                        <a class="button-item" href="">SAIBA MAIS  ></a>                    
+                    </div>
+                </button>
+               
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container">
+        <section class="about">
+            
+            
+            <div class="about-content">
+                <h3>Sobre Nós</h3>
+                <h1 class="title about-title">A Lorem Ipsum.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ipsam quidem provident maiores fugiat ullam soluta accusantium recusandae accusamus culpa eaque tempore quam consequatur pariatur!</p>
+                <button class="button about-button">
+                    <div >
+                        <a class="button-item" href="">SAIBA MAIS  ></a>                    
+                    </div>
+                 </button>
+            </div>
+
+            <div class="about-image" >
+                <img class="about-vetor" src="./img/Vector.png" alt="">
+                <img class="about-group" src="./img/Group.png" alt="">
+
+            </div>
+        </section>
     </div>
+
+
+    
+    <section class="services">
+        <img class="banner-img" src="./img/IMAGEM SERVICE.jpg" alt="">
+
+        <div class="content-banner ">
+            <div class="container">
+                <h3>Saiba mais sobre nossos serviços</h3>
+                <h1 class="title">Nossos Serviços</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, atque minima, dolor dolorum doloribus, voluptates a porro sapiente delectus accusantium tempora. Dolores vero dignissimos, nemo veniam unde vitae praesentium sit!</p>
+                <button class="button banner-button">
+                    <div >
+                        <a class="button-item" href="">SAIBA MAIS  ></a>                    
+                    </div>
+                </button>               
+            </div>
+        </div>       
+    </section>
+
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="testim-content">
+                <h3>O que os clientes Falam</h3>
+                <h1 class="title about-title">Depoimentos</h1>
+
+                <div class="cards">
+                <div class="card-item">
+                    <div class="cabecalho-card">
+                        <img class="foto-perfil" src="./img/perfil fic2.jpg" alt="foto perfil">
+                            
+                        <div class="identificacao">
+                            <ul class="lista">
+                                <li class="nome">Jorge Alencar Nunes</li>
+                                <li class="data">20/04/2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="p-testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo ad reiciendis vero? Possimus, officia earum obcaecati adipisci fugiat voluptate eum alias!</p>                                   
+                </div>
+
+                <div class="card-item">
+                    <div class="cabecalho-card">
+                        <img class="foto-perfil" src="./img/perfil fic3.jpg" alt="foto perfil">
+                            
+                        <div class="identificacao">
+                            <ul class="lista">
+                                <li class="nome">Aline Millman dos Santos</li>
+                                <li class="data">29/04/2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="p-testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo ad reiciendis vero? Possimus, officia earum obcaecati adipisci fugiat voluptate. </p>                                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="features">
+        <div class="container">
+            <div class="feature-content">
+                <h1 class="feature-title">Funcionalidades</h1>        
+
+                <div class="features-container">
+                        
+                    <div class="featL">
+                        <div class="features-item">
+                            <img  class="img-feat-item" src="./img/Vector  feature.svg" alt="">
+                            <div class="text-feature">
+                                <h3 class="nome">Lorem ipsum dolor sit !</h3>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur exercit dolor </span>
+                            </div>
+                        </div>
+                        
+                        <div class="features-item">
+                            <img  class="img-feat-item" src="./img/Vector  feature.svg" alt="">
+                            <div class="text-feature">
+                                <h3 class="nome">Lorem ipsum dolor sit !</h3>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur exercit dolor </span>
+                            </div>
+                        </div>
+                            
+                    </div>
+                    
+                   <img class="feature-img" src=./img/Smarth.png" alt="">
+    
+                    <div class="featR">
+                        <div class="features-item">
+                            <img  class="img-feat-item" src="./img/Vector  feature.svg" alt="">
+                            <div class="text-feature">
+                                <h3 class="nome">Lorem ipsum dolor sit !</h3>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur exercit dolor </span>
+                            </div>
+                        </div>
+                        <div class="features-item">
+                            <img  class="img-feat-item" src="./img/Vector  feature.svg" alt="">
+                            <div class="text-feature">
+                                <h3 class="nome">Lorem ipsum dolor sit !</h3>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur exercit dolor </span>
+                            </div>
+                        </div> 
+                    </div>         
+                 </div>                
+            </div>   
+        </section>
+    </div>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-content">
+
+                <div class="contact-image" >
+                    <img class="about-vetor" src="./img/ILLUSTRATION -2.png" alt="">
+                </div>
+              
+                <div class="about-content">
+                    <h3>Entre em contato.</h3>
+                    <h1 class="title contact-title">Fale Conosco</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ipsam quidem provident maiores fugiat ullam soluta accusantium recusandae accusamus culpa eaque tempore quam consequatur pariatur!</p>
+                    <button class="button about-button">
+                        <div >
+                            <a class="button-item" href="">SAIBA MAIS  ></a>                    
+                        </div>
+                     </button>
+                </div>
+
+            </div>            
+        </div>   
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div  class="footer">
+                <div class="footer-logo">                 
+                    <img class="img-footer" src="./img/LogoCimol.jpg" alt="">
+                </div>   
+                <div class="footer-institucional">
+                    <div class="img-relacionamentos">
+                        <img class="logo-inst" src="./img/Facebook.png" alt="">
+                        <img class="logo-inst" src="./img/Instangran.png" alt="">
+    
+                    </div>
+                    
+                    <span>Copyrigth &copy; Todos os direitos reservados a Lorem Ipsum.</span>
+
+
+                </div> 
+                
+                               
+            </div>
+        </div>
+    </footer>
+
 
     
 </body>
