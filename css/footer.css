@@ -32,27 +32,32 @@
 }
 
 
-.span-footer-mobile{
-    display: none;
-    font-size: 12px;
-}
 
 
-@media (max-width: 375px){
+@media (max-width: 480px){
     .footer{
-        height: 70px;
+        height: 90px;
        
     }
-    .logo-crescer{
-        display: none;
+    .img-footer{
+        height: 40px;
     }
-    .span-footer-mobile{
-        display: flex;
-        align-self: center;
-        margin-right: 20px;
+    .footer-institucional{
+        height: 70px;
+        width: 180px;
+        
     }
-    .footer-menu{
-        display: none;
+   
+    span{
+        font-size: 10px;
     }
+    .logo-inst{
+        height: 40px;
+        width: 40px;
+        
+       
+       
+    }
+    
     
 }

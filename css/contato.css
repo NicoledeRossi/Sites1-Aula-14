@@ -85,6 +85,7 @@ p{
     justify-content: space-evenly;
     margin: 40px 30px 40px 0;
    
+   
 }
 .formulario{
     display: flex;
@@ -144,6 +145,7 @@ label{
 span{
     color: rgb(167,167,167);
     margin-right: 20px;
+    font-size: 16px;
 
 
 }textarea{
@@ -158,8 +160,10 @@ span{
     justify-content: start;
 }
 .radio-box{
-    display: grid;
-    align-items: baseline;
+    display: block;
+    font-size: 16px;
+    
+    
 } 
 
 .check-box{
@@ -185,7 +189,7 @@ span{
 
 
 
-@media(max-width: 375px){
+@media(max-width: 480px){
     .container{
         margin-left: 20px;
         margin-right: 20px;
@@ -222,13 +226,24 @@ span{
     .content{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items:flex-start
     }    
     .form-end{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+    .img-form-end{
+        width: 100px;
 
+    }
+    span{
+        font-size: 12px;
+
+    }
+
+    .contato-foto{
+       width: 200px;
+    }
     
 }
