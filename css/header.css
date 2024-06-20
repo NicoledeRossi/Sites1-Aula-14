@@ -85,7 +85,7 @@
       
 }
 
-@media (max-width: 480px){
+@media (max-width: 500px){
     .header{
         height: 60px;
     }
@@ -95,12 +95,8 @@
     .hamburger{
         display: flex;
         position: relative;
-        left: 10px;
-        margin-top: 10px;
+        
         z-index: 10;
-    }
-    .aspas-logo{
-        display: flex;
     }
    
    /*
@@ -121,13 +117,14 @@
     
     .menu{
         flex-direction: column;
+        justify-content: flex-start;
         padding: 0;
         position: fixed;
-        background-color: #f3f3f3;
+        background-color: rgb(247, 173, 152);
         top: 0;
         left: 0;
         height: 100%;
-        width: 200px;
+        width: 200px;   
         z-index: 1;
         flex-wrap: initial; 
         justify-content: center;
@@ -136,4 +133,8 @@
         transition: transform 0.4s ease ;   
     } 
 
+    
+    .menu-item-link{
+        color: black;
+    }
 }

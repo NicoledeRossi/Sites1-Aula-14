@@ -26,7 +26,7 @@ p{
 .container{
     margin: auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
 }   
 
 
@@ -64,8 +64,12 @@ p{
     font-family: 'Montserrat', sans-serif;
     height: 490px;
     display: flex;
-    color:rgb(81, 80, 112);
+    
 
+}
+.team-container{
+    background-color: rgb(247, 173, 152);
+    top: 0;;
 }
 
 .person{
@@ -75,8 +79,7 @@ p{
 
 
 .person-item{
-    height: 257px;
-    width: 257px;
+   padding: 10px;
 
 }
 
@@ -97,7 +100,7 @@ p{
     color: #fff;
     top:0;
     padding: 20px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -134,12 +137,12 @@ p{
     padding: 20px;
 }
 
-@media(max-width: 375px){
+@media(max-width: 500px){
     .container{
-        margin-left: 20px;
+        margin-left: 40px;
         margin-right: 20px;
-        max-width: 340px;
-    }   
+        max-width: 400px;
+    } 
     p{
         line-height: 1.5;
         font-size: 16px;
