@@ -148,7 +148,8 @@ span{
     font-size: 16px;
 
 
-}textarea{
+}
+textarea{
     color: rgb(167,167,167);
     font-size: 16px;
     border:none;
@@ -216,7 +217,7 @@ span{
        
     }
     .envelope{
-        width: 48px;
+        width: 40px;
     }
 
     .formulario{
@@ -226,7 +227,7 @@ span{
     .content{
         flex-direction: column;
         justify-content: center;
-        align-items:flex-start
+        align-items:center
     }    
     .form-end{
         display: flex;

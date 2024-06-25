@@ -88,9 +88,13 @@
 @media (max-width: 500px){
     .header{
         height: 60px;
+        width: 100%;
+        padding: 0 10%;
     }
     .logo{
-        display: none;
+        height: 30px;
+        position: relative;
+        right: 10px;
     }
     .hamburger{
         display: flex;

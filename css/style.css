@@ -28,6 +28,7 @@ button{
 p{
     width: 500px;
     line-height: 2;
+    
 }
 
 
@@ -168,7 +169,7 @@ p{
     margin-top: 40px;
     background-color: #fff;
     height: 217px;
-    width: 580px;
+    width: 500px;
     padding: 20px;
 }
 
@@ -276,7 +277,9 @@ p{
 
 }
 
-
+.p-testimonial{
+    width: 95%;
+}
 
 .contact{
     background-color: #f3f3f3;
@@ -328,7 +331,10 @@ p{
     .banner-img{
         width: auto; 
     }
+    .button{
+        height: 30px;
 
+    }
     .about{
         height: 760px;
         flex-direction: column-reverse;
