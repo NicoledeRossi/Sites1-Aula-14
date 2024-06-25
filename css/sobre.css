@@ -61,15 +61,20 @@ p{
 }
 
 .team{
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     height: 490px;
     display: flex;
-    
-
-}
-.team-container{
+    width: 100%;
     background-color: rgb(247, 173, 152);
-    top: 0;;
+}
+
+
+.team-container{
+   
+   
+    top: 0;
+    
 }
 
 .person{
