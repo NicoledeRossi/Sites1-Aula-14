@@ -131,10 +131,6 @@ p{
 }
 
 
-.about-group{
-    position: absolute;
-    top:20px;
-}
 
 .services{
     position: relative;
@@ -201,82 +197,6 @@ p{
     color: rgb(255, 142, 110);
 }
 
-
-
-.features{
-    height: 688px;
-    width: 100%;
-    background-image: linear-gradient(to right, rgba(81, 80, 112, 1),rgba(107, 105, 176, 1));  
-}
-
-
-.feature-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.feature-title{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255, 142, 110);
-    font-size: 45px;
-    align-items: center;
-    margin: 40px;
-    
-}
-
-
-.features-container{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-   
-}
-
-.featL{
-    display: block;
-    
-}
-
-.featR{
-    display: block;
-    
-}
-
-.img-feature{
-    height: 551;
-    width: 349;
-}
-
-
-.features-item{
-    width: 337px;
-    height: 138px;
-    display: flex;
-    padding: 20px;
-    color: #fff;
-    margin: 40px 0;
-    
-    
-}
-
-.img-feat-item{
-    height: 50px;
-    width: 50px;
-    margin-right: 20px;
-}
-
-.text-feature{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    max-width: 100%;    
-
-}
-
 .p-testimonial{
     width: 95%;
 }
@@ -325,18 +245,19 @@ p{
         
     .banner{
         position: relative;
-        height: 760px;
+        
                
     }
     .banner-img{
         width: auto; 
+        
     }
     .button{
         height: 30px;
 
     }
     .about{
-        height: 760px;
+        height: 560px;
         flex-direction: column-reverse;
         justify-content: space-around;
     }
@@ -350,7 +271,7 @@ p{
     }
    
     .content-banner{
-        height:  760px;
+        height:  560px;
         align-self: center;
         justify-self: center;
     }
@@ -376,50 +297,6 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .features{
-        height: 960px;
-        position: relative;
-    }
-    .feature-content{
-        height: 960px;
-        display: block;
-        margin: 0;
-    }
-
-    .features-container{
-        display: block;
-    }
-    .feature-title{
-        font-size: 25px;
-        
-    }
-    .features-item{
-        height: 80px;
-        padding:0;
-        margin: 0;
-    }
-    
-    .img-feat-item{
-        height: 30px;
-        width: 30px;
-    }
-    .nome{
-        font-size: 16px;}
-
-    span{
-        font-size: 12px;}
-
-    .text-feature{
-        height: 70px;
-        width: auto;
-    }
-
-    .feature-img{
-        position: absolute;
-        bottom: 0;
-        left: 0;
     }
 
     .contact{
